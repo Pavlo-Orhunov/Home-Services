@@ -16,5 +16,8 @@
 - scroll to a section from a menu item
 - animation
 
+`Link to the Page`
+https://pavlo-orhunov.github.io/Home-Services/
+
 `Link to the video`
 https://youtu.be/x91woHXCcyc

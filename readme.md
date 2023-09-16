@@ -1,8 +1,8 @@
-# This landing page is designed on a basis of a layout kindly provided by Evhen Andrikanych. <br>
+# This landing page is designed on a basis of a template kindly provided by Evhen Andrikanych. <br>
 
 ## Lesson: "Adaptive layout of an interesting site. Explanation of actions. HTML CSS JS FIGMA." <br>
 
-**LAYOUT FEATURES**
+**_LAYOUT FEATURES:_**
 
 - layout made on Figma
 - use of BEM methodology

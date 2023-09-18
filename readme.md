@@ -8,7 +8,7 @@
 - use of BEM methodology
 - no use of any preprocessors and assemblers (manual work)
 - almost pixel perfect on the PC version :)
-- fully adaptive layout to 320px width
+- fully responsive layout to 320px width
 - hamburger menu on mobile devices
 - custom numbered list
 - Swiper slider

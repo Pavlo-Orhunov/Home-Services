@@ -1,5 +1,16 @@
 "use strict"
 
+// Preloader
+document.addEventListener("DOMContentLoaded", function () {
+  var preloader = document.getElementById("preloader")
+  setTimeout(function () {
+    preloader.style.opacity = "0"
+  }, 500)
+  preloader.addEventListener("transitionend", function () {
+    preloader.style.display = "none"
+  })
+})
+
 // ------------- hamburger menu -------------
 const iconMenu = document.querySelector(".icon-menu")
 const menuBody = document.querySelector(".menu__body")
@@ -149,6 +160,7 @@ window.addEventListener("load", () => {
   moveElements()
   window.addEventListener("resize", moveElements)
 })
+// ------------- END OF Moving Elements -------------
 
 // ------------- Spoilers -------------
 const spoilersArray = document.querySelectorAll("[data-spoilers]")

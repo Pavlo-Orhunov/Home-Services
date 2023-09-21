@@ -5,15 +5,15 @@
 **_LAYOUT FEATURES:_**
 
 - layout made on Figma
-- use of BEM methodology
+- HTML using BEM methodology
+- fully responsive layout up to 320px width
 - no use of any preprocessors and assemblers (manual work)
 - almost pixel perfect on the PC version :)
-- fully adaptive layout to 320px width
 - hamburger menu on mobile devices
 - custom numbered list
 - Swiper slider
-- spoiler "accordion"
-- scroll to a section from a menu item
+- accordion spoiler
+- smooth scrolling to a section from a menu item
 - animation
 
 `Link to the Page`

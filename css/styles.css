@@ -2127,12 +2127,18 @@ body {
   z-index: 1000;
   font-size: 72px;
   font-weight: 700;
-  color: red;
+  color: #ffff00;
   animation: hideText 3s linear forwards;
 }
 
 @keyframes hideText {
-  to {
+  0% {
+    opacity: 1;
+  }
+  80% {
+    opacity: 1;
+  }
+  100% {
     opacity: 0;
   }
 }

@@ -5,7 +5,7 @@ document.addEventListener("DOMContentLoaded", function () {
   var preloader = document.getElementById("preloader")
   setTimeout(function () {
     preloader.style.opacity = "0"
-  }, 500)
+  }, 100)
   preloader.addEventListener("transitionend", function () {
     preloader.style.display = "none"
   })
@@ -116,11 +116,10 @@ function documentActions(e) {
 }
 
 // ------------- Moving Elements -------------
-// Get all elements with an attribute data-original-container
-const elementsToMove = document.querySelectorAll("[data-original-container]")
-
-// Function to move elements based on attributes data-original-container,data-target-container and data-max-width
+// Function to move elements based on attributes data-original-container, data-target-container, and data-max-width
 function moveElements() {
+  const elementsToMove = document.querySelectorAll("[data-original-container]")
+
   elementsToMove.forEach((element) => {
     const originalContainerName = element.getAttribute(
       "data-original-container"
@@ -147,7 +146,7 @@ function moveElements() {
         }
       }
     } else {
-      // If the data-target-container attribute is not specified, leave the element on its place
+      // If the data-target-container attribute is not specified, leave the element in its place
       console.warn(
         `Warning: data-target-container attribute is missing for the element with data-original-container="${originalContainerName}".`
       )
@@ -155,11 +154,9 @@ function moveElements() {
   })
 }
 
-// Call the function on page load and a window resize
-window.addEventListener("load", () => {
-  moveElements()
-  window.addEventListener("resize", moveElements)
-})
+// Call the function on DOMContentLoaded and window resize
+document.addEventListener("DOMContentLoaded", moveElements)
+window.addEventListener("resize", moveElements)
 // ------------- END OF Moving Elements -------------
 
 // ------------- Spoilers -------------

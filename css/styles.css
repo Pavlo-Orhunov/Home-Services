@@ -498,21 +498,15 @@ h6 {
 }
 
 /*======== Body styles ========*/
-.hidden {
-  display: none !important;
-}
-html {
-  scroll-behavior: smooth;
-}
 body {
   font-family: "Plus Jakarta Sans", sans-serif;
-  font-size: calc(16px + (18 - 16) * ((100vw - 320px) / (1470 - 320)));
+  font-size: 18px;
   line-height: 155.555556%; /* 28/18 */
   color: var(--neutural-grey-1, #545971);
 }
-@media (min-width: 1470px) {
+@media (max-width: 479.98px) {
   body {
-    font-size: 18px;
+    font-size: 16px;
   }
 }
 /* Blocks body scrolling */
@@ -1801,8 +1795,8 @@ body {
   transform: rotate(-180deg);
 }
 .spoilers-faq__text {
-  margin-top: 16px;
-  font-size: 16px;
+  margin-top: 1rem;
+  font-size: 1rem;
   line-height: 1.5;
 }
 @media (max-width: 991.98px) {
@@ -2075,7 +2069,7 @@ body {
   height: 100%;
   background-color: var(--primary-dark-blue-1);
   z-index: 9999;
-  transition: opacity 0.7s ease;
+  transition: opacity 0.5s ease;
 }
 
 [data-animate-to-left-top] {

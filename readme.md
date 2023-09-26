@@ -22,3 +22,15 @@ https://pavlo-orhunov.github.io/Home-Services/
 
 `Link to the video`
 https://youtu.be/x91woHXCcyc
+
+<br>
+
+**_Preview for desktop layout version:_**
+
+![Desktop version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/Desktop.png "Desktop version preview")
+
+<br>
+
+**_Preview for mobile layout version:_**
+
+![Mobile version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/Mobile.png "Mobile version preview")

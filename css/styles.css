@@ -2118,3 +2118,21 @@ body {
   transform: translateX(0);
   opacity: 1;
 }
+.versionnumber {
+  position: absolute;
+  text-align: center;
+  top: 200px;
+  left: 0;
+  right: 0;
+  z-index: 1000;
+  font-size: 72px;
+  font-weight: 700;
+  color: red;
+  animation: hideText 3s linear forwards;
+}
+
+@keyframes hideText {
+  to {
+    opacity: 0;
+  }
+}

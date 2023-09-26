@@ -17,7 +17,7 @@
 - animation
 - preloader
 
-`Link to the Page`
+`Link to the layout Page`
 https://pavlo-orhunov.github.io/Home-Services/
 
 `Link to the video`

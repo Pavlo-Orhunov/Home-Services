@@ -563,7 +563,7 @@ body {
   background: url("../images/hero/decor-left.svg") 0 0 / 100% no-repeat;
   width: 479px;
   height: 45px;
-  bottom: 0;
+  bottom: -1px;
   left: 0;
 }
 .hero::after {
@@ -572,7 +572,7 @@ body {
   background: url("../images/hero/decor-right.svg") 0 0 / 100% no-repeat;
   width: 479px;
   height: 45px;
-  bottom: 0;
+  bottom: -1px;
   right: 0;
 }
 .hero__inner {

@@ -751,7 +751,7 @@ body {
   }
   .content-hero__features {
     position: relative;
-    grid-template-columns: repeat(2, 233px);
+    grid-template-columns: repeat(2, 220px);
     grid-template-rows: repeat(2, auto);
     row-gap: 40px;
   }
@@ -2117,18 +2117,6 @@ body {
 .loaded .content-hero__button-wrapper {
   transform: translateX(0);
   opacity: 1;
-}
-.versionnumber {
-  position: absolute;
-  text-align: center;
-  top: 200px;
-  left: 0;
-  right: 0;
-  z-index: 1000;
-  font-size: 72px;
-  font-weight: 700;
-  color: #ffff00;
-  animation: hideText 3s linear forwards;
 }
 
 @keyframes hideText {

@@ -89,6 +89,7 @@ function windowLoad() {
   window.addEventListener("scroll", animateOnScroll)
 }
 
+// ------------- Scroll-to function -------------
 function documentActions(e) {
   const targetElement = e.target
   // scroll
@@ -114,6 +115,7 @@ function documentActions(e) {
     e.preventDefault()
   }
 }
+// ------------- END OF Scroll-to function -------------
 
 // ------------- Moving Elements -------------
 // Function to move elements based on attributes data-original-container, data-target-container, and data-max-width

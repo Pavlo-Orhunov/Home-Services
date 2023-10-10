@@ -281,7 +281,6 @@ h6 {
   }
 }
 @media (max-width: 767.98px) {
-  /* Hamburger menu button (is displayed on resolutions less than 768px) */
   .icon-menu {
     position: relative;
     z-index: 5;

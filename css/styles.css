@@ -277,7 +277,7 @@ h6 {
 }
 @media (max-width: 991.98px) {
   .menu__list {
-    column-gap: 30px;
+    column-gap: 20px;
   }
 }
 @media (max-width: 767.98px) {
@@ -793,6 +793,13 @@ body {
     right: auto;
     left: 50%;
     transform: translateX(30%);
+  }
+  .content-hero__labels {
+    column-gap: 35px;
+    row-gap: 10px;
+  }
+  .content-hero__label:not(:first-child)::before {
+    left: -21px;
   }
 }
 @media (max-width: 991.98px) {

@@ -25,12 +25,30 @@ https://youtu.be/x91woHXCcyc
 
 <br>
 
-**_Preview for desktop layout version:_**
+**_Preview for desktop (1920px) layout version:_** ⬇️
 
-![Desktop version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/Desktop.png "Desktop version preview")
+![Desktop version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/desktop.jpg "Desktop version preview")
 
 <br>
 
-**_Preview for mobile layout version:_**
+**_Preview for laptop (1440px) layout version:_** ⬇️
 
-![Mobile version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/Mobile.png "Mobile version preview")
+![Laptop version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/laptop.jpg "Laptop version preview")
+
+<br>
+
+**_Preview for mobile-portrait (360px) layout version:_** ⬇️
+
+![Mobile version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/mobile-p.jpg "Mobile-portrait version preview")
+
+<br>
+
+**_Preview for mobile-landscape layout version:_** ⬇️
+
+![Mobile version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/mobile-l.jpg "Mobile-landscape version preview")
+
+<br>
+
+**_Preview for tablet (810px) layout version:_** ⬇️
+
+![Tablet version preview](https://github.com/Pavlo-Orhunov/Home-Services/blob/master/images/tablet.jpg "Tablet version preview")

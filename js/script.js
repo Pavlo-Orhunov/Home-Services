@@ -90,7 +90,9 @@ function windowLoad() {
   document.body.classList.add("loaded")
 
   // ----- animation --------------
-  const items = document.querySelectorAll("[data-animate-to-left-top]")
+  const items = document.querySelectorAll(
+    "[data-animate-to-left-top], [data-animate-slide-to-right]"
+  )
 
   const appearThreshold = 0.3
 

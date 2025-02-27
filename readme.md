@@ -1,4 +1,4 @@
-# This landing page is designed on a basis of a template kindly provided by Evhen Andrikanych. <br>
+# This landing page is designed on a basis of a template kindly provided by Yevhen Andrikanych. <br>
 
 ## Lesson: "Adaptive layout of an interesting site. Explanation of actions. HTML CSS JS FIGMA." <br>
 
